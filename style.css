@@ -135,18 +135,18 @@ h3{
   }
   .errordate{
     position: absolute;
-    top: 46vh; left:11vw;
+    top: 41vh; left:13vw;
     font-size: 9px;
   }
   .errormonth{
     position: absolute;
-    top: 46vh; left:35vw;
+    top: 41vh; left:41vw;
     font-size: 9px;
   
   }
   .erroryear {
     position: absolute;
-    top: 46vh; left:61vw;
+    top: 41vh; left:69vw;
     font-size: 9px;
   }
   h3{
