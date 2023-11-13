@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <title>Age Calculator App</title>
+  <!-- style css sheet external  -->
+  <link rel="stylesheet" href="./style.css">
+  <!-- google font  -->
+</head>
+<body>
+  <main>
+  <div class="displaydate">
+      <label for="DAY" id="labelDate">DAY</label>
+      <label for="MONTH" id="labelMonth">MONTH</label>
+      <label for="YEAR"id="labelYear">YEAR</label>
+  </div>
+
+  <div class="inputdiv">
+    <form name="inputForm" action="#" value="Number" id="form">
+    <input type="text" placeholder="DD" maxlength="2" id="input1" class="input" name="date">
+    <input type="text" placeholder="MM" maxlength="2" id="input2" class="input" name="month">
+    <input type="text" placeholder="YYYY" maxlength="4" id="input3" class="input" name="year">
+    </form>
+  </div>
+  
+  <div class="line">
+    <button type="button" id="btn" onclick="user(document.inputText)"><img src="./assets/images/icon-arrow.svg" alt="btn"></button>
+  </div>
+  
+  
+  <div class="displaydiv">
+    <h1 id="year"><span id="yearspan">--</span>year</h1>
+    <h1 id="month"><span id="monthspan">--</span>month</h1>
+    <h1 id="date"><span id="daysspan">--</span>days</h1>
+  </div>
+  <h3 class="errordate"></h3>
+  <!-- <h3 class="errormonth"></h3> -->
+  <!-- <h3 class="erroryear"></h3> -->
+
+</main>
+
+</body>
+<!-- javascript external file  -->
+<script src="./script.js"></script>
+</html>
